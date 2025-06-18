@@ -1,1 +1,54 @@
 appsettings.Development.json
+
+# Build resultados
+bin/
+obj/
+
+# Visual Studio archivos
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de paquetes
+*.nupkg
+*.snupkg
+
+# Paquetes de NuGet
+packages/
+.nuget/
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Configuraciones locales
+*.vscode/
+*.idea/
+
+# Publicación y despliegue
+publish/
+PublishProfiles/
+
+# Archivos de cobertura de código
+*.coverage
+*.coveragexml
+
+# Archivos generados por Rider
+.idea/
+
+# Archivos de configuración de análisis estático
+*.ruleset
+
+# Archivos de base de datos locales (ej. LocalDB)
+*.mdf
+*.ldf
+
+# Archivos de usuario de Visual Studio
+*.rsuser
+*.resharper
+
+# Otros
+*.dbmdl
