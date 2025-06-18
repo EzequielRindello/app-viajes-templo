@@ -1,0 +1,79 @@
+.detalle-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.detalle-titulo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-family: "Georgia", serif;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.detalle-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.detalle-item {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.detalle-label {
+  font-weight: 600;
+  color: #1a5276;
+  margin-bottom: 0.3rem;
+}
+
+.detalle-valor {
+  font-size: 1rem;
+  color: #333;
+}
+
+.detalle-costo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.detalle-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn-accion {
+  background-color: #1a5276;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-accion:hover {
+  background-color: #154360;
+}
+
+@media (max-width: 768px) {
+  .detalle-wrapper {
+    padding: 1rem;
+  }
+}
