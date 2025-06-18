@@ -41,3 +41,10 @@ D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Microsoft.Ex
 D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Npgsql.dll
 D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\EFCore.NamingConventions.dll
+D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Repositorios\app-viajes-templo\backend\MiAppApi\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Repositorios\app-viajes-templo\backend\MiAppApi\obj\Debug\net9.0\MiAppApi.sourcelink.json
