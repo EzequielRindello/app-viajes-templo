@@ -1,3 +1,4 @@
+import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -9,11 +10,10 @@ import Sidebar from "./components/SideBar/SideBar";
 import "./App.css";
 import ViajesPage from "./pages/Viajes";
 import DetailsPage from "./pages/Details";
-import { useState } from "react";
-import { FaBars } from "react-icons/fa";
+import InicioPage from "./pages/Inicio";
 
 function Inicio() {
-  return <h2>Inicio</h2>;
+  return <InicioPage />;
 }
 
 function Viajes() {
