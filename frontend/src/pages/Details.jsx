@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./details.css";
 import { useNavigate } from "react-router-dom";
+import Spinner from "../components/Spinner/Spinner";
 
 const DetailsPage = () => {
   const navigate = useNavigate();
@@ -26,7 +27,7 @@ const DetailsPage = () => {
       });
   }, [id]);
 
-  if (loading) return <p>Cargando...</p>;
+  if (loading) return <Spinner />;
   if (!viaje) return <p>No se encontró el viaje.</p>;
 
   return (
