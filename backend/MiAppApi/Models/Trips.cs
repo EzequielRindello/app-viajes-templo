@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace MiAppApi.Models
 {
@@ -14,6 +15,7 @@ namespace MiAppApi.Models
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+        public ICollection<Participant> Participants { get; set; } = new List<Participant>();
     }
-    
 }

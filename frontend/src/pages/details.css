@@ -72,6 +72,89 @@
   background-color: #154360;
 }
 
+.detalle-subtitulo {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+  font-family: "Georgia", serif;
+}
+
+.tabla-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tabla-participantes {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.tabla-participantes thead {
+  background-color: #1a5276;
+  color: white;
+}
+
+.tabla-participantes th,
+.tabla-participantes td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #eee;
+}
+
+.tabla-participantes td:last-child {
+  white-space: nowrap;
+}
+
+.tabla-participantes tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Color claro */
+}
+
+.tabla-participantes tbody tr:nth-child(even) {
+  background-color: #ffffff; /* Blanco */
+}
+
+/* Eliminar el hover */
+.tabla-participantes tbody tr:hover {
+  background-color: inherit;
+}
+
+.tabla-participantes button {
+  background-color: #1a5276;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabla-participantes button:hover {
+  background-color: #154360;
+}
+
+.input-busqueda {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+
 @media (max-width: 768px) {
   .detalle-wrapper {
     padding: 1rem;
